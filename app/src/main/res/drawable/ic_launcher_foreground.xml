@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield / Tunnel Container -->
+    <path
+        android:pathData="M54,22L76,31C76,57 65,74 54,86C43,74 32,57 32,31L54,22Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="22"
+                android:endX="54"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1E293B" />
+                <item android:offset="1.0" android:color="#0F172A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Dragon Wing / Horn Accents -->
+    <path
+        android:pathData="M54,34L64,44L59,52L54,47L49,52L44,44Z"
+        android:fillColor="#06B6D4" />
+    <!-- Dragon Eye / Core Power Node -->
+    <path
+        android:pathData="M54,53L60,61L54,69L48,61Z"
+        android:fillColor="#F43F5E" />
+    <!-- TCP Data Beams -->
+    <path
+        android:pathData="M54,30L54,78"
+        android:strokeWidth="2"
+        android:strokeColor="#10B981" />
+</vector>

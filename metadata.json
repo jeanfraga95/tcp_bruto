@@ -1,0 +1,6 @@
+{
+  "name": "DragonTCP VPN",
+  "description": "DragonTCP VPN client with custom TCP tunnel connection, host/port/auth configuration, and real-time logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
